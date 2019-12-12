@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/vagrant/chameleon/app/controllers'
+let g:netrw_dirhist_2='/vagrant/dji/app'
+let g:netrw_dirhist_3='/vagrant/dji_admin/test'
+let g:netrw_dirhist_4='/vagrant/turtle/config/locales'
+let g:netrw_dirhist_5='/home/oreore/dev/jasmy.skc.support-console-web/docker'

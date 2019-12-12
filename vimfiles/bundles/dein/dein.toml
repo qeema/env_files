@@ -1,0 +1,10 @@
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+# Syntax checker
+[[plugins]]
+repo = 'w0rp/ale'
+
+# statusline plugin
+[[plugins]]
+repo = 'itchyny/lightline.vim'
