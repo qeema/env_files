@@ -1,0 +1,11 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "window.zoomLevel": -1,
+    "debug.console.fontSize": 20,
+    "terminal.integrated.fontSize": 20,
+    "editor.fontSize": 20,
+    "markdown.preview.fontSize": 20,
+    "workbench.editor.enablePreview": false,
+    "glassit.alpha": 235,
+    "editor.minimap.enabled": false
+}
