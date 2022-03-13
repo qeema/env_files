@@ -1,11 +1,34 @@
 {
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "window.zoomLevel": -1,
-    "debug.console.fontSize": 20,
-    "terminal.integrated.fontSize": 20,
-    "editor.fontSize": 20,
-    "markdown.preview.fontSize": 20,
-    "workbench.editor.enablePreview": false,
-    "glassit.alpha": 235,
-    "editor.minimap.enabled": false
+  "debug.console.fontSize": 20,
+  "terminal.integrated.fontSize": 20,
+  "editor.fontSize": 20,
+  "markdown.preview.fontSize": 20,
+  "workbench.editor.enablePreview": false,
+  "glassit.alpha": 235,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.eol": "\n",
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "editor.tabSize": 2,
+  "vscode-edge-devtools.headless": true,
+  "extensions.ignoreRecommendations": false,
+  "hediet.vscode-drawio.codeLinkActivated": true,
+  "window.zoomLevel": -1,
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "workbench.activityBar.visible": false,
+  "tabnine.experimentalAutoImports": true
 }
