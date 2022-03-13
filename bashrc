@@ -169,4 +169,4 @@ alias tl='tmux ls'
 alias d='docker'
 alias dc='docker compose'
 
-aliac c.='code .'
+alias c.='code .'
