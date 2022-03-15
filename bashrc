@@ -128,12 +128,13 @@ fi
 
 # User specific aliases and functions
 export EDITOR=vim
+
 eval "$(direnv hook bash)"
 
 HISTSIZE=50000
 HISTTIMEFORMAT='%Y/%m/%d %H:%M:%S '
 
-alias ll='ls -la'
+alias ll='ls -alt'
 alias open='xdg-open'
 
 alias g='git'
@@ -152,6 +153,9 @@ alias gpulld='git pull origin develop'
 alias gch='git checkout'
 alias gchm='git checkout main'
 alias gchd='git checkout develop'
+alias gch-='git checkout -'
+alias grd-='git rebase develop'
+alias grm-='git rebase main'
 
 alias cdv='cd /vagrant'
 alias cd-='cd -'
@@ -167,6 +171,12 @@ alias ta='tmux a -t mente'
 alias tl='tmux ls'
 
 alias d='docker'
+alias di='docker images'
+alias dp='docker ps'
+alias drm='docker rm $(docker ps -q -a)'
+alias drmi='docker rmi$(docker ps -q -a)'
 alias dc='docker compose'
+alias dcb='docker compose build'
+alias dcu='docker compose up'
 
 alias c.='code .'
