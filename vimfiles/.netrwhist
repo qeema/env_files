@@ -1,2 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/user/dev/mamasuma/com-sites/com-user/src/pages/magazine'
+let g:netrw_dirhist_4='/home/user/dev/mamasuma/com-sites/com-user/src/pages/mypage/customers'
+let g:netrw_dirhist_3='/home/user/dev/mamasuma/com-sites/com-admin/src/pages'
+let g:netrw_dirhist_2='/home/user/dev/mamasuma/com-sites/com-admin/src/pages/daily_reports'
+let g:netrw_dirhist_1='/home/user/dev/mamasuma/com-sites/com-admin/src/pages/daily_reports/edit'
+let g:netrw_dirhist_0='/home/user/dev/mamasuma/com-sites/com-admin/src/pages/daily_reports/edit/[branch_id]'
+let g:netrw_dirhist_9='/home/user/dev/mamasuma/com-sites/com-admin/src/pages/daily_reports/edit'
+let g:netrw_dirhist_8='/home/user/dev/mamasuma/com-sites/com-admin/src/pages/daily_reports/edit/[branch_id]'
+let g:netrw_dirhist_7='/home/user/dev/mamasuma/com-sites/com-migrate'
+let g:netrw_dirhist_6='/home/user/dev/mamasuma/com-sites/com-user-back'
